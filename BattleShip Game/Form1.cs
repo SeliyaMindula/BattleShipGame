@@ -155,7 +155,7 @@ namespace BattleShip_Game
                 btnAttack.BackColor = Color.Red;
                 btnAttack.ForeColor = Color.White;
 
-                TxtHelp.Text = "2) now pick the attack position from the drop down";
+                TxtHelp.Text = "2) now pick the attack position from the drop down list";
             }
         }
 
