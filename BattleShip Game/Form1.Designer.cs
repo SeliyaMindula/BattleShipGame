@@ -2885,13 +2885,16 @@
             // 
             // btnAttack
             // 
+            this.btnAttack.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnAttack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAttack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.btnAttack.Location = new System.Drawing.Point(418, 129);
             this.btnAttack.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnAttack.Name = "btnAttack";
-            this.btnAttack.Size = new System.Drawing.Size(74, 23);
+            this.btnAttack.Size = new System.Drawing.Size(89, 37);
             this.btnAttack.TabIndex = 205;
             this.btnAttack.Text = "Attack";
-            this.btnAttack.UseVisualStyleBackColor = true;
+            this.btnAttack.UseVisualStyleBackColor = false;
             this.btnAttack.Click += new System.EventHandler(this.AttackButtonEvent);
             // 
             // EnemyPlayTimer
@@ -2902,18 +2905,22 @@
             // txtPlayer
             // 
             this.txtPlayer.AutoSize = true;
-            this.txtPlayer.Location = new System.Drawing.Point(357, 183);
+            this.txtPlayer.BackColor = System.Drawing.Color.Transparent;
+            this.txtPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.txtPlayer.Location = new System.Drawing.Point(357, 172);
             this.txtPlayer.Name = "txtPlayer";
-            this.txtPlayer.Size = new System.Drawing.Size(24, 17);
+            this.txtPlayer.Size = new System.Drawing.Size(41, 29);
             this.txtPlayer.TabIndex = 206;
             this.txtPlayer.Text = "00";
             // 
             // txtEnemy
             // 
             this.txtEnemy.AutoSize = true;
-            this.txtEnemy.Location = new System.Drawing.Point(1030, 183);
+            this.txtEnemy.BackColor = System.Drawing.Color.Transparent;
+            this.txtEnemy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.txtEnemy.Location = new System.Drawing.Point(1025, 172);
             this.txtEnemy.Name = "txtEnemy";
-            this.txtEnemy.Size = new System.Drawing.Size(24, 17);
+            this.txtEnemy.Size = new System.Drawing.Size(41, 29);
             this.txtEnemy.TabIndex = 207;
             this.txtEnemy.Text = "00";
             // 
