@@ -2854,10 +2854,11 @@
             // 
             this.enemyMoves.AutoSize = true;
             this.enemyMoves.BackColor = System.Drawing.Color.Transparent;
+            this.enemyMoves.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.enemyMoves.Location = new System.Drawing.Point(1082, 90);
             this.enemyMoves.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.enemyMoves.Name = "enemyMoves";
-            this.enemyMoves.Size = new System.Drawing.Size(25, 17);
+            this.enemyMoves.Size = new System.Drawing.Size(25, 18);
             this.enemyMoves.TabIndex = 202;
             this.enemyMoves.Text = "A1";
             // 
@@ -2865,11 +2866,11 @@
             // 
             this.txtRounds.AutoSize = true;
             this.txtRounds.BackColor = System.Drawing.Color.Transparent;
-            this.txtRounds.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRounds.Location = new System.Drawing.Point(576, 182);
+            this.txtRounds.Font = new System.Drawing.Font("Elephant", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRounds.Location = new System.Drawing.Point(565, 182);
             this.txtRounds.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtRounds.Name = "txtRounds";
-            this.txtRounds.Size = new System.Drawing.Size(119, 32);
+            this.txtRounds.Size = new System.Drawing.Size(127, 35);
             this.txtRounds.TabIndex = 203;
             this.txtRounds.Text = "Rounds";
             // 
@@ -2888,7 +2889,7 @@
             // 
             this.btnAttack.BackColor = System.Drawing.Color.SpringGreen;
             this.btnAttack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAttack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.btnAttack.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAttack.Location = new System.Drawing.Point(418, 129);
             this.btnAttack.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnAttack.Name = "btnAttack";
