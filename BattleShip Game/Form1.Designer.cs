@@ -2865,10 +2865,11 @@
             // 
             this.txtRounds.AutoSize = true;
             this.txtRounds.BackColor = System.Drawing.Color.Transparent;
-            this.txtRounds.Location = new System.Drawing.Point(602, 183);
+            this.txtRounds.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRounds.Location = new System.Drawing.Point(576, 182);
             this.txtRounds.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtRounds.Name = "txtRounds";
-            this.txtRounds.Size = new System.Drawing.Size(57, 17);
+            this.txtRounds.Size = new System.Drawing.Size(119, 32);
             this.txtRounds.TabIndex = 203;
             this.txtRounds.Text = "Rounds";
             // 
@@ -2907,7 +2908,7 @@
             this.txtPlayer.AutoSize = true;
             this.txtPlayer.BackColor = System.Drawing.Color.Transparent;
             this.txtPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txtPlayer.Location = new System.Drawing.Point(357, 172);
+            this.txtPlayer.Location = new System.Drawing.Point(357, 182);
             this.txtPlayer.Name = "txtPlayer";
             this.txtPlayer.Size = new System.Drawing.Size(41, 29);
             this.txtPlayer.TabIndex = 206;
