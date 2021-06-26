@@ -107,7 +107,7 @@ namespace BattleShip_Game
                     if (EnemyPositionButtons[index].Enabled && round > 0)
                     {
                         round -= 1;
-                        txtRounds.Text = "Round" + round;
+                        txtRounds.Text = "Round :" + round;
 
                         if ((String)EnemyPositionButtons[index].Tag == "enemyShip")
                         {
@@ -176,7 +176,7 @@ namespace BattleShip_Game
 
 
 
-            TxtHelp.Text = "1) Click on the three different location from above to start!";
+            TxtHelp.Text = "1) Click on the ten different location from above to start!";
 
             for (int i = 0; i < EnemyPositionButtons.Count; i++)
             {
